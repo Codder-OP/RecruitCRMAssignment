@@ -6,7 +6,7 @@
 - Department (should support multiple departments contains filter)
 - Projects (should support multiple projects contains filter)
 **API URL:** 
-localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&departments=HR&projects=Apollo&projects=Nova
+**localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&departments=HR&projects=Apollo&projects=Nova**
 **Success Response:**
 [
     {
@@ -27,7 +27,7 @@ localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&department
 **2. Fetch detailed employee information, including department, projects, and last 3
 performance reviews using id.**
 **API URL:** 
-localhost:8080/api/details?id=2
+**localhost:8080/api/details?id=2**
 **Sucess Response:**
 
 {
