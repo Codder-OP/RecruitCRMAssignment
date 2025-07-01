@@ -5,7 +5,8 @@
 - Performance score for a given review_date
 - Department (should support multiple departments contains filter)
 - Projects (should support multiple projects contains filter)
-**API URL:** localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&departments=HR&projects=Apollo&projects=Nova
+**API URL:** 
+localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&departments=HR&projects=Apollo&projects=Nova
 **Success Response:**
 [
     {
@@ -25,8 +26,10 @@
 
 **2. Fetch detailed employee information, including department, projects, and last 3
 performance reviews using id.**
-**API URL:** localhost:8080/api/details?id=2
+**API URL:** 
+localhost:8080/api/details?id=2
 **Sucess Response:**
+
 {
     "employee": {
         "id": 2,
