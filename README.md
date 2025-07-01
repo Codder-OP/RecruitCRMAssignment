@@ -1,14 +1,14 @@
 **Note:**Below Rest APIs are developed with Java, Spring Boot and H2 in memory database
 
-**Develop following REST endpoints to fetch data with filters.**
-\n
-**1. Get a list of employees with filters for:**
+**Develop following REST endpoints to fetch data with filters.**                        
+
+**1. Get a list of employees with filters for:**                    
 - Performance score for a given review_date
 - Department (should support multiple departments contains filter)
-- Projects (should support multiple projects contains filter)
-**API URL:** 
-**localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&departments=HR&projects=Apollo&projects=Nova**
-**Success Response:**
+- Projects (should support multiple projects contains filter)                                        
+**API URL:**                                                                                     
+**localhost:8080/api/filter?reviewDate=2023-06-01&departments=Marketing&departments=HR&projects=Apollo&projects=Nova**                
+**Success Response:**                                                                                                        
 [
     {
         "id": 5,
@@ -26,10 +26,10 @@
 
 
 **2. Fetch detailed employee information, including department, projects, and last 3
-performance reviews using id.**
-**API URL:** 
-**localhost:8080/api/details?id=2**
-**Sucess Response:**
+performance reviews using id.**                                                                        
+**API URL:**                                                                                         
+**localhost:8080/api/details?id=2**                                                                                    
+**Sucess Response:**                                                                                                        
 
 {
     "employee": {
